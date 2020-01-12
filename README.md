@@ -2,9 +2,9 @@
 
 This code is based on the code of Qin-Yu Zhu et. al corresponding to the paper "Evolutionary Extreme Learning Machine". The code of Qin-Yu Zhu is based on the code of Kenneth Price and Rainer Storn available at http://www1.icsi.berkeley.edu/~storn/code.html#matl
 
-We use to term Randomized Neural Network (RNN) as equivalent term for Extreme Learning Machine (ELM). After reading several discussions about the controversy of the term, we think this is the most precise and fair term.
+We use to term Randomized Neural Network (RNN) as an equivalent term for Extreme Learning Machine (ELM). After reading several discussions about the controversy of the term, we think this is the most precise and fair term.
 
-**DISCLAIMER: THE CODE IS NOT CLEAN ENOUGHT** (since the original code is not). However, one researcher asked about the source code of my papers so I prefer to publish it. 
+**DISCLAIMER: THE CODE IS NOT CLEAN ENOUGH** (since the original code is not). However, one researcher asked about the source code of my papers so I prefer to publish it. 
 
 ## Related papers
 
@@ -18,4 +18,4 @@ Qin-Yu Zhu, A.K.Qin, P.N.Suganthan and Guang-Bin Huang, "Evolutionary extreme le
 
 ## How to run the code
 
-This is an old code (2011) that I have ported to [ORCA](https://github.com/ayrna/orca) in order to ease the use. You will need to download ORCA (installation is not necesary) and then copy `ERNN.m` into 'Algorithms' folder. For more information see [Adding a new method to ORCA](https://github.com/ayrna/orca/blob/master/doc/orca_addmethod.md). After adding `ERNN.m` you will benefict from experiments description using INI files, crossvalidation of parameters, paralelization of experiments, CSV reports, etc. 
+This is an old code (2011) that I have ported to [ORCA](https://github.com/ayrna/orca) to ease the use. You will need to download ORCA (installation is not necessary) and then copy `ERNN.m` into 'Algorithms' folder. For more information see [Adding a new method to ORCA](https://github.com/ayrna/orca/blob/master/doc/orca_addmethod.md). After adding `ERNN.m` you will benefit from experiments description using INI files, optimization of parameters, parallelization of experiments, CSV reports, etc. 
